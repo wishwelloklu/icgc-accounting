@@ -5,7 +5,6 @@ import 'package:accounting_app/features/dashboard/pages/summary_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:gap/gap.dart';
-import 'package:syncfusion_flutter_charts/charts.dart';
 
 class Dashboard extends ConsumerWidget {
   const Dashboard({super.key});

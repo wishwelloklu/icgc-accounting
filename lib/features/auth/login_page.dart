@@ -9,7 +9,6 @@ import 'package:accounting_app/app/theme/style.dart';
 import 'package:accounting_app/app/utils/svg_icon.dart';
 import 'package:accounting_app/core/presentation/buttons/app_primary_button.dart';
 import 'package:accounting_app/core/presentation/text_field/input_text_field.dart';
-import 'package:accounting_app/core/presentation/text_field/password_text_field.dart';
 
 class LoginPage extends ConsumerStatefulWidget {
   const LoginPage({super.key});
@@ -19,7 +18,7 @@ class LoginPage extends ConsumerStatefulWidget {
 }
 
 class _LoginPageState extends ConsumerState<LoginPage> {
-  final _checked = ValueNotifier(false);
+
   @override
   Widget build(BuildContext context) {
     final size = MediaQuery.sizeOf(context);
